@@ -1,0 +1,12 @@
+{
+  "name": "SwipingShop",
+  "displayName": "SwipingShop",
+  "expo": {
+    "name": "SwipingShop",
+    "slug": "SwipingShop",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
