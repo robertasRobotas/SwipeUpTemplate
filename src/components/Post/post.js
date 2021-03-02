@@ -10,5 +10,4 @@ const post = () => {
     </View>
   );
 };
-
 export default post;
