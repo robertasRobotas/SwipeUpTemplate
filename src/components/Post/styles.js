@@ -14,6 +14,19 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
   },
+  infoContainer: {
+    height: '100%',
+    justifyContent: 'flex-end',
+  },
+  rightContainer: {
+    alignSelf: 'flex-end',
+    backgroundColor: 'red',
+  },
+  username: {
+    fontSize: 20,
+    color: 'white',
+    fontWeight: '700',
+  },
 });
 
 export default styles;
