@@ -19,14 +19,26 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   rightContainer: {
+    height: 350,
     alignSelf: 'flex-end',
-    backgroundColor: 'red',
+    alignItems: 'center',
   },
+  bottomContainer: { paddingBottom: 25, paddingLeft: 18 },
   username: {
+    paddingTop: 10,
     fontSize: 20,
     color: 'white',
     fontWeight: '700',
   },
+  description: {
+    paddingTop: 10,
+    color: 'white',
+  },
+  tags: { color: 'white', paddingTop: 10 },
+  userPhoto: { height: 60, width: 60, borderRadius: 50 },
+  iconText: { textAlign: 'center', fontWeight: '700', color: 'white' },
+  icon: { textAlign: 'center', color: 'white' },
+  iconContainer: { marginTop: 30 },
 });
 
 export default styles;
